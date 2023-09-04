@@ -1,0 +1,66 @@
+EJERCICIOS
+⦁	Asigne un mensaje a una variable e imprima ese mensaje. Luego cambie el valor de la variable a un nuevo mensaje e imprima el nuevo mensaje.
+⦁	Use una variable para representar el nombre de una persona e imprima el mensaje "Hola <nombre de la persona>, ¿te gustaría aprender algo de Python hoy?".
+⦁	Use una variable para representar el nombre de una persona y otra para el apellido  e imprima el mismo mensaje del ejercicio anterior
+⦁	Use una variable para representar el nombre de una persona y luego imprima el nombre de esa persona en minúsculas, mayúsculas y mayúsculas y minúsculas.
+⦁	Encuentra una cita de una persona famosa que admires. Imprima la cita y el nombre de su autor. Su salida debe ser similar a la siguiente, incluidas las comillas: Albert Einstein dijo una vez: “Una persona que nunca cometió un error nunca intentó nada nuevo”.
+⦁	Repite el ejercicio anterior, pero esta vez, representa el nombre de la persona famosa usando una variable llamada famous_person. Luego, redacte su mensaje y represéntelo con una nueva variable llamada message. Imprime tu mensaje.
+⦁	Use una variable para representar el nombre de una persona que incluya algunos caracteres de espacio en blanco al principio y al final del nombre. Asegúrese de usar cada combinación de caracteres "\t"y "\n", al menos una vez. Imprima el nombre una vez, de modo que se muestre el espacio en blanco alrededor del nombre. Luego imprima el nombre usando cada una de las tres funciones de eliminación, lstrip(), rstrip() y strip()
+⦁	Python tiene un método removesuffix() que funciona exactamente cómo removeprefix(). Asigne el valor 'python_notes.txt' a una variable llamada filename. Luego use el método  removesuffix() para mostrar el nombre del archivo sin la extensión del archivo, como lo hacen algunos exploradores de archivo
+⦁	Escribir un programa que muestre por pantalla el resultado de la siguiente operación aritmética  
+⦁	 Escribir un programa que pregunte al usuario por el número de horas trabajadas y el coste por hora. Después debe mostrar por pantalla la paga que le corresponde.
+⦁	Escribir un programa que lea un entero positivo, n, introducido por el usuario y después muestre en pantalla la suma de todos los enteros desde 1 hasta n. La suma de los primeros enteros positivos puede ser calculada de la siguiente forma:   
+⦁	Escribir un programa que pida al usuario su peso (en kg) y estatura (en metros), calcule el índice de masa corporal y lo almacene en una variable, y muestre por pantalla la frase Tu índice de masa corporal es <imc> donde <imc> es el índice de masa corporal calculado redondeado con dos decimales.
+⦁	Escribir un programa que pida al usuario dos números enteros y muestre por pantalla la <n> entre <m> da un cociente <c> y un resto <r> donde <n> y <m> son los números introducidos por el usuario, y <c> y <r> son el cociente y el resto de la división entera respectivamente.
+⦁	Escriba un programa en Python que calcule el área de un círculo en función del radio ingresado por el usuario.
+⦁	Imagina que acabas de abrir una nueva cuenta de ahorros que te ofrece el 4% de interés al año. Estos ahorros debido a intereses, que no se cobran hasta finales de año, se te añaden al balance final de tu cuenta de ahorros. Escribir un programa que comience leyendo la cantidad de dinero depositada en la cuenta de ahorros, introducida por el usuario. Después el programa debe calcular y mostrar por pantalla la cantidad de ahorros tras el primer, segundo y tercer años. Redondear cada cantidad a dos decimales.
+⦁	Una panadería vende barras de pan a $250  cada una. El pan que no es el día tiene un descuento del 60%. Escribir un programa que comience leyendo el número de barras vendidas que no son del día. Después el programa debe mostrar el precio habitual de una barra de pan, el descuento que se le hace por no ser fresca y el coste final total.
+⦁	Escribir un programa que pregunte el nombre del usuario en la consola y después de que el usuario lo introduzca muestre por pantalla <NOMBRE> tiene <n> letras, donde <NOMBRE> es el nombre de usuario en mayúsculas y <n> es el número de letras que tienen el nombre.
+⦁	Los teléfonos de una empresa tienen el siguiente formato prefijo-número-extension donde el prefijo es el código del país +34, y la extensión tiene dos dígitos (por ejemplo +34-913724710-56). Escribir un programa que pregunte por un número de teléfono con este formato y muestre por pantalla el número de teléfono sin el prefijo y la extensión.
+⦁	Escribir un programa que pida al usuario que introduzca una frase en la consola y una vocal, y después muestre por pantalla la misma frase pero con la vocal introducida en mayúscula. Utilizar la función replace()
+⦁	Escribir un programa que pregunte al usuario la fecha de su nacimiento en formato dd/mm/aaaa y muestra por pantalla, el día, el mes y el año. 
+⦁	Adaptar el programa anterior para que también funcione cuando el día o el mes se introduzcan con un solo carácter.
+
+Control de flujo
+⦁	Escribe un programa que pida al usuario ingresar su edad y determine si es mayor de edad (18 años o más) o menor de edad.
+⦁	Crea un programa que pida al usuario ingresar dos números y luego muestre cuál de los dos es mayor.
+⦁	Escribe un programa que pida al usuario ingresar un número y determine si es positivo, negativo o cero.
+⦁	Crea un programa que solicite al usuario ingresar una contraseña. Si la contraseña es "contraseña123", imprime "Acceso concedido". De lo contrario, imprime "Acceso denegado".
+⦁	Imprimir los números del 1 al 20, inclusive.
+⦁	Imagina que un alienígena acaba de ser derribado en un juego. Cree una variable llamada alien_color y asígnele un valor de 'green', 'yellow' o 'red'.
+⦁	Escribe una declaración if para probar si el color del extraterrestre es verde. Si es así, imprime un mensaje de que el jugador acaba de ganar 5 puntos.
+⦁	Escriba una versión de este programa que pase la prueba if y otra que falle. (La versión que falla no tendrá salida).
+⦁	Imagina que un alienígena acaba de ser derribado en un juego. Cree una variable llamada alien_color y lea en ella una entrada del usuario correspondiente al color del alienígena.
+⦁	Si el color del alienígena es verde, imprimir un mensaje de que el jugador acaba de ganar 5 puntos por matar al alienígena.
+⦁	Si el color del alienígena es rojo, imprimir un mensaje de que el jugador acaba de ganar 10 puntos por matar al alienígena.
+⦁	En cualquier otro caso, imprimir un mensaje de que el jugador acaba de ganar 3 puntos por matar al alienígena.
+
+Listas, tuplas y diccionarios
+⦁	Almacene los nombres de algunos de sus amigos en una lista llamada names. Imprima el nombre de cada persona accediendo a cada elemento de la lista, uno a la vez.
+⦁	Comience con la lista que usó en el ejercicio anterior  pero en lugar de solo imprimir el nombre de cada persona, imprima un mensaje para ellos. El texto de cada mensaje debe ser el mismo, pero cada mensaje debe estar personalizado con el nombre de la persona.
+⦁	Escriba un programa en Python que verifique si el nombre “Juan” está contenido dentro del grupo de elementos de la lista names definida en el ejercicio 1.
+⦁	Piensa en al menos tres tipos de tu pizza favorita. Guarde estos nombres de pizza en una lista y luego use un bucle for para imprimir el nombre de cada pizza.
+⦁	Modifique su ciclo for para imprimir una oración usando el nombre de la pizza, en lugar de imprimir solo el nombre de la pizza. Para cada pizza, debe tener una línea de salida que contenga una declaración simple como Me gusta la pizza de pepperoni.
+⦁	Haga una lista de los números del uno al mil y luego use un bucle for para imprimir los números.
+⦁	Haga una lista de los múltiplos de 3, del 3 al 30. Usa un bucle for para imprimir los números en tu lista.
+⦁	Haga una lista con los nombres de 7 alumnos de su clase y luego:
+⦁	Imprimir los tres primeros elementos de la lista.
+⦁	Imprimir los tres elementos de la mitad de la lista.
+⦁	Imprimir los tres últimos  elementos de la lista.
+⦁	Continuando con el ejercicio 3. Haga una copia de la lista de pizzas y llámela friend_pizzas. Luego, haz lo siguiente:
+⦁	Agregue una nueva pizza a la lista original.
+⦁	Agregue una pizza diferente a la lista friend_pizzas.
+⦁	Usa un bucle for para imprimir los elementos de ambas listas.
+⦁	Escribir un programa que permita cargar palabras a una lista y luego:
+⦁	Imprimir el número de veces que contiene una palabra en dicha frase. 
+⦁	Imprimir el número de palabras que contiene la frase.
+⦁	Imprimir la cantidad longitud de la frase.
+⦁	Escriba un programa que permita crear dos listas de palabras y que, a continuación:
+⦁	Imprima una lista de palabras que aparecen en las dos listas.
+⦁	Imprima una lista de palabras que aparecen en la primera lista, pero no en la segunda.
+⦁	Imprima una lista de palabras que aparecen en la segunda lista, pero no en la primera.
+⦁	Cree una nueva lista a partir de las dos anteriores con los elementos distintos de ambas.
+⦁	Un restaurante estilo buffet ofrece solo cinco alimentos básicos. Piense en cinco alimentos simples y guárdalos en una tupla.
+⦁	Use un bucle for para imprimir cada comida que ofrece el restaurante.
+⦁	Intente modificar uno de los elementos y asegúrese de que Python rechace el cambio.
+⦁	El restaurante cambia su menú, reemplazando dos de los artículos con comidas diferentes. Agregue una línea que reescriba la tupla y luego use un ciclo for para imprimir cada uno de los elementos en el menú revisado.
